@@ -14,7 +14,7 @@ function App() {
   const [finalpassword ,setfinalpassword] = useState('')
 
   let p= "sibtain"
-  let n =p.charAt( Math.floor(Math.random()*p.length));
+  let n =p.charAt( Math.floor(Math.random()*12));
   console.log(n);
 
 
